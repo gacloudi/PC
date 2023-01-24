@@ -13,7 +13,7 @@ with st.sidebar:
     selected = option_menu("Menu",["EMI","PPF","FD","EPF"],
         icons=['house','file','calculator','calculator-fill'], menu_icon="cast", default_index=0)
 if selected=='EMI':
-  st.subheader("blue:[EMI Calculator]")
+  st.subheader(":blue[EMI Calculator]")
   st.write("-----------------------")
   df=pd.DataFrame(columns=['Month','Interest','Principal','Loan_Remaining'])
   df11=pd.DataFrame(columns=['Month','Interest','Principal','Loan_Remaining'])
